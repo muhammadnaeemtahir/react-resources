@@ -37,7 +37,7 @@ const App = () => {
 
       <div className="row g-0">
         <div className={`col-md-3 bg-light shadow-sm border-end p-5 d-md-block ${isToggle ? 'd-none' : ''}`}>
-          <h1 className="display-6 pb-2 pt-md-0 pt-5"
+          <h1 className="display-5 pb-2 pt-md-0 pt-5"
             style={{
               color: 'purple'
             }}>
