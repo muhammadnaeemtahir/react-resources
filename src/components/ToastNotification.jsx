@@ -44,7 +44,7 @@ export const ToastNotification = ({ title = 'Toast Notifications' }) => {
     };
     return (
         <>
-            <section className="py-5 border-bottom border-dark border-2">
+            <section className="py-5 border-bottom border-dark border-2" id="toast-notifications">
 
                 <h1 className="text-center display-4">{title}</h1>
 

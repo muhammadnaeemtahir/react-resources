@@ -9,7 +9,7 @@ import { HiExternalLink } from "react-icons/hi";
 export const Icons = ({ title = 'Icons' }) => {
     return (
         <>
-            <section className="py-5 border-bottom border-dark border-2">
+            <section className="py-5 border-bottom border-dark border-2" id="icons">
                 <h1 className="text-center display-4">{title}</h1>
                 <div className="d-flex justify-content-center gap-5 align-items-center my-5">
                     <IconContext.Provider value={{ color: 'purple', size: '3rem' }}>

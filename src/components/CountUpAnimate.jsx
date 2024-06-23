@@ -7,10 +7,10 @@ import { IoIosRefresh } from "react-icons/io";
 export const CountUpAnimate = ({ title = 'CountUp' }) => {
     return (
         <>
-            <section className="py-5 border-bottom border-dark border-2">
+            <section className="py-5 border-bottom border-dark border-2" id='count-up'>
                 <h1 className="text-center display-4">{title}</h1>
                 <div className="d-flex flex-column align-items-center my-5">
-                    <CountUp className='h1 mb-3' end={1000} duration={10} prefix='$' decimals={2} />
+                    <CountUp className='h1 mb-3' end={1000} duration={1} prefix='$' decimals={2} />
                     <button className='btn btn-sm text-white' style={{
                         backgroundColor: 'purple',
                     }}

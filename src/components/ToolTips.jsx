@@ -7,7 +7,7 @@ import { HiExternalLink } from "react-icons/hi";
 export const ToolTips = ({ title = 'Tooltips' }) => {
     return (
         <>
-            <section className="py-5 border-bottom border-dark border-2">
+            <section className="py-5 border-bottom border-dark border-2" id='tooltips'>
                 <h1 className="text-center display-4">{title}</h1>
                 <Tippy content="Hello!">
                     <button className='btn btn-lg text-white d-block mx-auto my-5' style={{

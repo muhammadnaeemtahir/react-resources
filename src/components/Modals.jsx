@@ -11,7 +11,7 @@ export const Modals = ({ title = 'Modals' }) => {
 
     return (
         <>
-            <section className="py-5 border-bottom border-dark border-2">
+            <section className="py-5 border-bottom border-dark border-2" id="modals">
                 <h1 className="text-center display-4">{title}</h1>
                 <button onClick={() => setIsModalOpen(true)} className="btn btn-lg text-white my-5 d-block mx-auto" style={{ backgroundColor: 'purple' }}>Try Modal!</button>
                 <Modal isOpen={isModalOpen} shouldCloseOnOverlayClick={false} onRequestClose={() => setIsModalOpen(false)}
