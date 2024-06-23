@@ -2,6 +2,7 @@
 import { Icons } from "./components/Icons"
 import { ToastNotification } from "./components/ToastNotification"
 import { Modals } from "./components/Modals";
+import { ToolTips } from "./components/ToolTips";
 
 // react toast configuration
 import { ToastContainer } from 'react-toastify';
@@ -17,6 +18,7 @@ const App = () => {
         <Icons title="Icons" />
         <ToastNotification title="Toast Notifications" />
         <Modals title="Modals" />
+        <ToolTips title="ToolTips" />
       </div>
     </>
   )
