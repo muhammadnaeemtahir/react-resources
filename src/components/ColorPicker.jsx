@@ -18,7 +18,7 @@ export const ColorPicker = ({ title = 'Color Picker' }) => {
 
     return (
         <>
-            <section className="py-5 border-bottom border-dark border-2" id="icons">
+            <section className="py-5 border-bottom border-dark border-2" id="color-picker">
                 <h1 className="text-center display-4">{title}</h1>
                 <div className="my-5">
                     <button onClick={() => setShowColorPicker(!showColorPicker)} className='btn btn-primary d-block mx-auto mb-3'>{showColorPicker ? 'Close Color Picker' : 'Pick A Color'}</button>
