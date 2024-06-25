@@ -2,3 +2,9 @@ body {
     height: 100dvh;
     overflow: hidden;
 }
+
+.btn-primary,
+.btn-primary:is(:hover) {
+    background-color: purple;
+    border-color: purple;
+}

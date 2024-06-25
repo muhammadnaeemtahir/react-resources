@@ -6,6 +6,7 @@ import { ToastNotification } from "./components/ToastNotification"
 import { Modals } from "./components/Modals";
 import { ToolTips } from "./components/ToolTips";
 import { CountUpAnimate } from "./components/CountUpAnimate";
+import { ColorPicker } from "./components/ColorPicker";
 
 // react toast configuration
 import { ToastContainer } from 'react-toastify';
@@ -60,6 +61,7 @@ const App = () => {
             <Modals title="Modals" />
             <ToolTips title="ToolTips" />
             <CountUpAnimate title="CountUp" />
+            <ColorPicker title="Color Picker" />
           </div>
         </div>
       </div>
