@@ -24,15 +24,16 @@ export const SideNav = () => {
                     <FaReact color="purple" className="ms-2" />
                 </h1>
                 <aside className="vh-100 d-flex flex-column gap-2 mt-3">
-                    <a className="p-1 text-decoration-none" href="#icons">Icons</a>
+                    <a className="p-1 text-decoration-none" href="#count-up">CountUp</a>
                     <a className="p-1 text-decoration-none" href="#toast-notifications">Toast Notifications</a>
+                    <a className="p-1 text-decoration-none" href="#credit-cards">Credit Cards</a>
+                    <a className="p-1 text-decoration-none" href="#icons">Icons</a>
                     <a className="p-1 text-decoration-none" href="#modals">Modals</a>
                     <a className="p-1 text-decoration-none" href="#tooltips">ToolTips</a>
-                    <a className="p-1 text-decoration-none" href="#count-up">CountUp</a>
                     <a className="p-1 text-decoration-none" href="#color-picker">Color Picker</a>
-                    <a className="p-1 text-decoration-none" href="#credit-cards">Credit Cards</a>
                     <a className="p-1 text-decoration-none" href="#date-picker">Date Picker</a>
                     <a className="p-1 text-decoration-none" href="#video-player">Video Player</a>
+                    <a className="p-1 text-decoration-none" href="#react-spinners">React Spinners</a>
                 </aside>
             </div>
         </>
