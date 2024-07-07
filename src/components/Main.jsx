@@ -6,6 +6,7 @@ import { Modals } from "./Modals";
 import { ToolTips } from "./ToolTips";
 import { CountUpAnimate } from "./CountUpAnimate";
 import { ColorPicker } from "./ColorPicker";
+import { CreditCards } from "./CreditCards";
 
 export const Main = () => {
     return (
@@ -18,6 +19,7 @@ export const Main = () => {
                     <ToolTips title="ToolTips" />
                     <CountUpAnimate title="CountUp" />
                     <ColorPicker title="Color Picker" />
+                    <CreditCards title="Credit Cards" />
                 </div>
             </div>
         </>
