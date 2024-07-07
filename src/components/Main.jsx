@@ -7,6 +7,7 @@ import { ToolTips } from "./ToolTips";
 import { CountUpAnimate } from "./CountUpAnimate";
 import { ColorPicker } from "./ColorPicker";
 import { CreditCards } from "./CreditCards";
+import { Datepicker } from "./DatePicker";
 
 export const Main = () => {
     return (
@@ -20,6 +21,7 @@ export const Main = () => {
                     <CountUpAnimate title="CountUp" />
                     <ColorPicker title="Color Picker" />
                     <CreditCards title="Credit Cards" />
+                    <Datepicker title="Date Picker" />
                 </div>
             </div>
         </>

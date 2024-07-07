@@ -30,6 +30,8 @@ export const SideNav = () => {
                     <a className="p-1 text-decoration-none" href="#tooltips">ToolTips</a>
                     <a className="p-1 text-decoration-none" href="#count-up">CountUp</a>
                     <a className="p-1 text-decoration-none" href="#color-picker">Color Picker</a>
+                    <a className="p-1 text-decoration-none" href="#credit-cards">Credit Cards</a>
+                    <a className="p-1 text-decoration-none" href="#date-picker">Date Picker</a>
                 </aside>
             </div>
         </>

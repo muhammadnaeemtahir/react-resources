@@ -28,7 +28,7 @@ export const CreditCards = ({ title = 'Credit Cards' }) => {
 
     return (
         <>
-            <section className="py-5 border-bottom border-dark border-2" id="icons">
+            <section className="py-5 border-bottom border-dark border-2" id="credit-cards">
                 <h1 className="text-center display-4">{title}</h1>
                 <div className="row align-items-center my-5">
                     <div className="col-md-4 mb-md-0 mb-3">
@@ -44,17 +44,6 @@ export const CreditCards = ({ title = 'Credit Cards' }) => {
                         <form className='row'>
                             <div className="col-md-6">
                                 <input
-                                    type="text"
-                                    name="name"
-                                    placeholder="Account Name"
-                                    className='form-control mb-3'
-                                    value={state.name}
-                                    onChange={handleInputChange}
-                                    onFocus={handleInputFocus}
-                                />
-                            </div>
-                            <div className="col-md-6">
-                                <input
                                     type="number"
                                     name="number"
                                     placeholder="Card Number"
@@ -64,6 +53,18 @@ export const CreditCards = ({ title = 'Credit Cards' }) => {
                                     onFocus={handleInputFocus}
                                 />
                             </div>
+                            <div className="col-md-6">
+                                <input
+                                    type="text"
+                                    name="name"
+                                    placeholder="Account Name"
+                                    className='form-control mb-3'
+                                    value={state.name}
+                                    onChange={handleInputChange}
+                                    onFocus={handleInputFocus}
+                                />
+                            </div>
+
                             <div className="col-md-6">
                                 <input
                                     type="text"
