@@ -8,6 +8,7 @@ import { CountUpAnimate } from "./CountUpAnimate";
 import { ColorPicker } from "./ColorPicker";
 import { CreditCards } from "./CreditCards";
 import { Datepicker } from "./DatePicker";
+import { VideoPlayer } from "./VideoPlayer";
 
 export const Main = () => {
     return (
@@ -22,6 +23,7 @@ export const Main = () => {
                     <ColorPicker title="Color Picker" />
                     <CreditCards title="Credit Cards" />
                     <Datepicker title="Date Picker" />
+                    <VideoPlayer title="Video Player" />
                 </div>
             </div>
         </>

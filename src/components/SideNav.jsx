@@ -32,6 +32,7 @@ export const SideNav = () => {
                     <a className="p-1 text-decoration-none" href="#color-picker">Color Picker</a>
                     <a className="p-1 text-decoration-none" href="#credit-cards">Credit Cards</a>
                     <a className="p-1 text-decoration-none" href="#date-picker">Date Picker</a>
+                    <a className="p-1 text-decoration-none" href="#video-player">Video Player</a>
                 </aside>
             </div>
         </>
