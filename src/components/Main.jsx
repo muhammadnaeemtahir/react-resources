@@ -9,6 +9,7 @@ import { ColorPicker } from "./ColorPicker";
 import { CreditCards } from "./CreditCards";
 import { Datepicker } from "./DatePicker";
 import { VideoPlayer } from "./VideoPlayer";
+import { LoadingSpinner } from "./LoadingSpinner";
 
 export const Main = () => {
     return (
@@ -24,6 +25,7 @@ export const Main = () => {
                     <CreditCards title="Credit Cards" />
                     <Datepicker title="Date Picker" />
                     <VideoPlayer title="Video Player" />
+                    <LoadingSpinner title="React Spinners" />
                 </div>
             </div>
         </>
