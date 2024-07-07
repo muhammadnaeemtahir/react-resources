@@ -17,16 +17,19 @@ export const SideNav = () => {
                 </button>
             </div>
 
-            <div className={`col-md-3 bg-light shadow-sm border-end p-5 d-md-block ${isToggle ? 'd-none' : ''}`}>
-                <h1 className="display-5 pb-2 pt-md-0 pt-5"
-                    style={{ color: 'purple' }}>
-                    React Practical
-                    <FaReact color="purple" className="ms-2" />
-                </h1>
+            <div className={`col-md-3 bg-light shadow-sm border-end p-5 overflow-y-scroll custom-scrollbar vh-100 d-md-block ${isToggle ? 'd-none' : ''}`}>
+                <a href="/" className="text-decoration-none">
+                    <h1 className="display-5 pb-2 pt-md-0 pt-5"
+                        style={{ color: 'purple' }}>
+                        React Practical
+                        <FaReact color="purple" className="ms-2" />
+                    </h1>
+                </a>
                 <aside className="vh-100 d-flex flex-column gap-2 mt-3">
                     <a className="p-1 text-decoration-none" href="#count-up">CountUp</a>
                     <a className="p-1 text-decoration-none" href="#toast-notifications">Toast Notifications</a>
                     <a className="p-1 text-decoration-none" href="#credit-cards">Credit Cards</a>
+                    <a className="p-1 text-decoration-none" href="#form-validations">Form Validations <br /> (Formik & Yup) </a>
                     <a className="p-1 text-decoration-none" href="#icons">Icons</a>
                     <a className="p-1 text-decoration-none" href="#modals">Modals</a>
                     <a className="p-1 text-decoration-none" href="#tooltips">ToolTips</a>

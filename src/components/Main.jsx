@@ -10,6 +10,7 @@ import { CreditCards } from "./CreditCards";
 import { Datepicker } from "./DatePicker";
 import { VideoPlayer } from "./VideoPlayer";
 import { LoadingSpinner } from "./LoadingSpinner";
+import { Forms } from "./Forms";
 
 export const Main = () => {
     return (
@@ -19,6 +20,7 @@ export const Main = () => {
                     <CountUpAnimate title="CountUp" />
                     <ToastNotification title="Toast Notifications" />
                     <CreditCards title="Credit Cards" />
+                    <Forms title="Form Validations" />
                     <Modals title="Modals" />
                     <Icons title="Icons" />
                     <ToolTips title="ToolTips" />
