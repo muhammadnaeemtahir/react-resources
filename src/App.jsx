@@ -1,5 +1,6 @@
 
 // import components
+import { TopHeader } from "./components/TopHeader";
 import { SideNav } from "./components/SideNav";
 import { Main } from "./components/Main";
 
@@ -12,8 +13,9 @@ const App = () => {
     <>
       {/* must be initiaize (within the app root) */}
       <ToastContainer />
+      <TopHeader />
 
-      <div className="row g-0">
+      <div className="row g-0 pt-md-5">
         <SideNav />
         <Main />
       </div>

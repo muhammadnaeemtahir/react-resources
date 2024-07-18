@@ -19,9 +19,9 @@ export const SideNav = () => {
 
             <div className={`col-md-3 bg-light shadow-sm border-end p-5 overflow-y-scroll custom-scrollbar vh-100 d-md-block ${isToggle ? 'd-none' : ''}`}>
                 <a href="/" className="text-decoration-none">
-                    <h1 className="display-5 pb-2 pt-md-0 pt-5"
+                    <h1 className="display-6 pb-2 pt-md-0 pt-5"
                         style={{ color: 'purple' }}>
-                        React Practical
+                        React Resources
                         <FaReact color="purple" className="ms-2" />
                     </h1>
                 </a>
