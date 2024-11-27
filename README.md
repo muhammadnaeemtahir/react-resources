@@ -1,1 +1,1 @@
-[Live Website](https://react-practical-blush.vercel.app/)
+[Live Website](https://react-resources.vercel.app/)
